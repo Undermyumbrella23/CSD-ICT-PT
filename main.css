@@ -1,17 +1,26 @@
 
 body {
   font-family: Verdana;
-}
+  background-image: url('faded_school_bg.png'); 
+  background-repeat: no-repeat;
+  background-size: 70% 60%; 
+} 
 
 header {
 	font-family: cambria;
-
 }
 
-/* make navbar items align horizontally */
-.navbar{
-    display:flex;
-    align-items:center;
+.logo {
+    width: 75px;
+    height: 85px;
+    padding: 10px; 
+}
+
+.navbar {
+  background-color: white;
+  padding: 10px;
+  display:flex;
+  align-items:center;
 }
 
 /* remove inline-block so flexbox controls layout */
@@ -81,4 +90,27 @@ change background colors and font colors as necessary.*/
 
 .dropdown:hover .dropbtn-1 {color: #000000;}
 
-Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
+Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page. 
+
+#Home {
+  text-align: right;
+}
+
+#Home div {
+  text-align: right;
+}
+#News {
+ text-align: right;
+} 
+
+#News div {
+  text-align: right;
+}
+
+#Programs {
+  text-align: right;
+}
+
+#Events {
+  text-align: right;
+}
